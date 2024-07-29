@@ -1,2 +1,2 @@
-# RMarkdown_templates
+# RMarkdown Templates
 My output templates
