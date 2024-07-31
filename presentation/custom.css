@@ -1,0 +1,97 @@
+:root {
+/*-- COLOR VARIABLES --*/
+--DarkBlue:           #003087;
+--Blue:               #005EB8;
+--BrightBlue:         #0072CE;
+
+--Black:              #231F20;
+--DarkGrey:           #425563;
+--MidGrey:            #768692;
+--PaleGrey:           #E8EDEE;
+--White:              #FFFFFF;
+
+--DarkGreen:          #006747;
+--Green:              #009639;
+--AquaGreen:          #00A499;
+
+--Purple:             #330072;
+--DarkPink:           #7C2855;
+--Pink:               #AE2573;
+--DarkRed:            #8A1538;
+--Red:                #DA291C;
+
+--my-blue:            #122140;
+--my-yellow:          #e5bf00;
+--my-gold:            #ae8f00;
+
+--my-coral:          #903030;
+--my-red:            #600018;
+--my-pink:           #c09090;
+}
+
+/*-- Custom classes for text emphasis --*/
+.blue       { color:  var(--Blue) }
+.green      { color:  var(--Green) }
+.pink       { color:  var(--Pink) }
+.red        { color:  var(--Red) }
+.warmyellow { color:  var(--WarmYellow) }
+.palegrey   { color:  var(--PaleGrey)}
+.my-blue    { color:  var(--my-blue) }
+.my-yellow  { color:  var(--my-yellow) }
+.my-gold    { color:  var(--my-gold)}
+.my-red     { color:  var(--my-red) }
+.my-coral   { color:  var(--my-coral) }
+.my-pink    { color:  var(--my-pink) }
+.my-hot-pink { background-color: #ff69b4 }
+
+/*-- CODE TEXT ---------------------------------------------------------------*/
+
+/*-- In-line highlighting within text --*/
+.remark-code, .remark-inline-code {
+  font-size:          80%;
+  color:              var(--my-blue);
+  background:         var(--PaleGrey);
+  border-radius:      3px;
+  padding:            1px 1px 1px 1px;
+}
+
+/*-- Line highlighting within code --*/
+.remark-code-line-highlighted {
+  background-color:   var(--PaleGrey);
+}
+
+/*-- CODE CHUNKS --*/
+
+/*-- Code chunk background layer --*/
+pre {
+  /*border: 2px solid rgba(204, 189, 204, 0.8); /* code chunk border*/
+  border:             2px solid var(--PaleGrey);
+  box-shadow:         2px 2px 2px 2px var(--PaleGrey);
+  padding:            0.1em;                    /* padding between code chunk and border */
+  background:         none !important;
+  overflow-x:         auto;                     /* enable horizontal scrolling with overflow */
+  border-radius:      1px;                      /* modify rounding of corners*/
+}
+
+/*--  --*/
+pre code {
+  background:         none;
+  font-size:          18px !important;
+}
+
+/*-- SLIDE TEXT ---------------------------------------------------------------*/
+/* Title slide */
+
+/* Add image and change bg color */
+.title-slide {
+  background-image: url("../presentation/images/rmd-logo.png");
+  background-position: 80% 50%;
+  background-size: 250px;
+  padding-right: 100px; 
+}
+
+/* Change the bullet point color */
+li::marker {
+  content: "• ";
+  color: #EFBE43;
+}
