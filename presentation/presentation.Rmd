@@ -72,7 +72,7 @@ class: title-slide, left, bottom
 
 ### **`r rmarkdown::metadata$subtitle`**
 ** `r rmarkdown::metadata$author`**
-[`r fontawesome::fa("github", a11y = "sem")` @yuchanmou](https://github.com/yuchanmou)<br>
+[`r fontawesome::fa("github", a11y = "sem")`](https://github.com/yuchanmou)<br>
 `r rmarkdown::metadata$institute`<br>
 `r Sys.Date()`
 
