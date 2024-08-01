@@ -88,7 +88,10 @@ class: inverse, center, middle
 
 # Get Started
 
---
+---
+class: center, middle
+
+## Wait...I just mastered R!!!
 ![:scale 40%](../presentation/images/Learn-new-things.png)
 
 ---
@@ -375,23 +378,34 @@ $$X = \begin{bmatrix}1 & x_{1}\\
 \end{bmatrix}$$
 
 ---
+class: left, top
+
 ## Resources
 
-- [R Markdown The Definitive Guide](https://bookdown.org/yihui/rmarkdown/)
+.pull-left[
+- R Markdown
 
-- [R Markdown Cookbook](https://bookdown.org/yihui/rmarkdown-cookbook/)
+  [R Markdown The Definitive Guide](https://bookdown.org/yihui/rmarkdown/)
 
-- Two slides about using xaringan package  **(for presentation)**
+  [R Markdown Cookbook](https://bookdown.org/yihui/rmarkdown-cookbook/)
+
+- Xaringan package  **for presentation**
 
   [Learning xaringan Presentations](https://irene.vrbik.ok.ubc.ca/slides/NHSRxaringan.html?panelset1=tab-12#1)
   
   [Sharing Your Work with xaringan](https://spcanelon.github.io/xaringan-basics-and-beyond/slides/day-01-basics.html?panelset4=remark.js2&panelset5=nhsrtheme2&panelset6=moon-reader2&panelset7=markdown2#1)
+]
 
+.pull-right[
 - Tabulate r packages in HTML format: 
 
   [Kable](https://cran.r-project.org/web/packages/kableExtra/vignettes/awesome_table_in_html.html#full_width)
   , [gt](https://gt.rstudio.com/index.html)
 
-- If you are interested in version control and open source
+- Interested in version control?
 
   [Happy Git and GitHub for the useR](https://happygitwithr.com/)
+]
+
+---
+
