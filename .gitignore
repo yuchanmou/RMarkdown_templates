@@ -49,5 +49,9 @@ po/*~
 rsconnect/
 
 *.Rproj
-*.html
 *.RData
+
+# Output files
+*.pdf
+*.docx
+*.html
