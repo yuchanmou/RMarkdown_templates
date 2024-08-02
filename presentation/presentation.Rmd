@@ -102,7 +102,9 @@ class: center, middle
 
 --
 
-R Markdown provides an authoring framework for data science. You can use a single R Markdown file to both
+R Markdown provides an authoring framework for data science.<br>
+
+You can use a single R Markdown file to:
 
 --
 
@@ -122,14 +124,21 @@ both the computing code and narratives are in the same document
 results are automatically generated from the source code.
 
 ---
+class: center, middle
+
+# How does it work?
+![:scale 50%](../presentation/images/rmd_workflow.png)
+
+
+---
 class: inverse, center, middle
 
 # My workflow
 
 ---
-class:left, middle
+class:center, middle
 
-```{r workflow, echo = FALSE, fig.cap = 'My R Markdown workflow', out.width = '80%', fig.align='center', cache=TRUE}
+```{r workflow, echo = FALSE, fig.cap = 'My R Markdown workflow', out.width = '65%', fig.align='center', cache=TRUE}
 library(nomnoml)
 nomnoml::nomnoml(
   "
