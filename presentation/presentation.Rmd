@@ -10,7 +10,7 @@ output:
     seal: false                                # disable automatic title slide from YAML
     lib_dir: libs
     nature:
-      beforeInit: "macros.js"
+      beforeInit: "macros.js"                 # rescale imported img
       slideNumberFormat: "%current%"          # slide number format
       highlightStyle: googlecode              # highlighting syntax for code
       highlightlines: true                    # true: enables code line highlighting
